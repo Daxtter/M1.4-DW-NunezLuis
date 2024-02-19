@@ -3,7 +3,7 @@ const listaDeNombres =["Sistemas de control","Diseno Digital","Programacion Estr
 let numeroDeProcesos = (process.argv[2]);
 let listaDeObjetos = [];
 try{
-    if( typeof numeroDeProcesos != "number")
+    if( typeof numeroDeProcesos == "undefined");
         throw "ingrese un numero en la terminal";    
 
 
